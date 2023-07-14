@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.UserController">
+    <children>
+        <VBox alignment="CENTER" layoutX="100.0" layoutY="120.0" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+
+                <TableView fx:id="tableView">
+                    <columns>
+                        <TableColumn fx:id="idColumn" text="ID" />
+                        <TableColumn fx:id="usernameColumn" text="Username" />
+                        <TableColumn fx:id="mailColumn" text="Mail" />
+                        <TableColumn fx:id="passwordColumn" text="Password" />
+                        <TableColumn fx:id="highscoreColumn" text="Highscore" />
+                        <TableColumn fx:id="editColumn" editable="false" sortable="false" text="Edit" />
+                        <TableColumn fx:id="deleteColumn" editable="false" sortable="false" text="Delete" />
+                    </columns>
+                </TableView>
+                <StackPane fx:id="warningBackground" style="-fx-padding: 7">
+                    <Text fx:id="messageField" />
+                    <VBox.margin>
+                        <Insets left="120.0" right="120.0" />
+                    </VBox.margin>
+                </StackPane>
+                <GridPane alignment="TOP_CENTER" hgap="2.0" vgap="5.0">
+                    <Label GridPane.columnIndex="0" GridPane.rowIndex="0">ID</Label>
+                    <TextField fx:id="idField" editable="false" style="-fx-background-color: lightgrey" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+                    <Label GridPane.columnIndex="0" GridPane.rowIndex="1">Username</Label>
+                    <TextField fx:id="usernameField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                    <Label GridPane.columnIndex="0" GridPane.rowIndex="2">E-Mail</Label>
+                    <TextField fx:id="mailField" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                    <Label GridPane.columnIndex="0" GridPane.rowIndex="3">Password</Label>
+                    <TextField fx:id="passwordField" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                    <Button onMouseClicked="#createNewProperty" styleClass="createButton" GridPane.columnIndex="0" GridPane.halignment="LEFT" GridPane.rowIndex="6">Create new</Button>
+                    <Button onMouseClicked="#editProperty" styleClass="submitButton" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="6">Save</Button>
+               <columnConstraints>
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints />
+                  <RowConstraints />
+                  <RowConstraints />
+                  <RowConstraints />
+                  <RowConstraints />
+                  <RowConstraints />
+                  <RowConstraints />
+               </rowConstraints>
+                </GridPane>
+            </children>
+        </VBox>
+    </children>
+    <padding>
+        <Insets bottom="50.0" left="50.0" right="50.0" top="50.0" />
+    </padding>
+</AnchorPane>

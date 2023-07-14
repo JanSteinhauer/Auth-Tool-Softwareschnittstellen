@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane xmlns="http://javafx.com/javafx/17.0.2-ea">
+   <children>
+      <StackPane prefHeight="900.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="welcomeText" text="Welcome to the Authoring Tool of Project Coffee!" textAlignment="CENTER">
+            </Text>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<AnchorPane prefHeight="900.0" prefWidth="1300.0" stylesheets="@../css/stylesheet.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MenuController">
+   <children>
+      <SplitPane dividerPositions="0.20" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0">
+               <children>
+                              <VBox styleClass="navbarVBox" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                     <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onMouseClicked="#loadUsersPane" styleClass="menuButton" text="Users" />
+                                     <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onMouseClicked="#loadRecipePane" styleClass="menuButton" text="Recipe" />
+                                     <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onMouseClicked="#loadIngredientPane" styleClass="menuButton" text="Ingredient" />
+                                     <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onMouseClicked="#loadMachinePane" styleClass="menuButton" text="Machine" />
+                                     <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onMouseClicked="#loadSettingsPane" styleClass="menuButton" text="Settings" />
+                                 </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+          <AnchorPane fx:id="contentPane"  minHeight="0.0" minWidth="0.0">
+               <children>
+               </children>
+          </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

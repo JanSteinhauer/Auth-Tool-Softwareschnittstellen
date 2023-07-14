@@ -1,0 +1,147 @@
+
+.rootComicSansMS{
+    -fx-font-family: "Comic Sans MS";
+}
+
+.rootArial{
+    -fx-font-family: "Arial";
+}
+
+.rootTimesNewRoman{
+    -fx-font-family: "Times New Roman";
+}
+
+.rootSmallFontSize{
+    -fx-font-size: 12;
+}
+
+rootMediumFontSize{
+    -fx-font-size: 14;
+}
+
+rootBigFontSize{
+    -fx-font-size: 18;
+}
+
+.button{
+    -fx-background-radius: 0;
+    -fx-border-color: black;
+    -fx-text-fill: black;
+    -fx-alignment: center;
+    -fx-pref-width: 165.0;
+    -fx-pref-height: 40.0;
+}
+
+.navbarVBox{
+    -fx-spacing: 5;
+    -fx-alignment: CENTER;
+}
+
+
+TableColumn{
+    -fx-pref-width: auto;
+}
+
+TableView{
+    -fx-pref-width: 800;
+}
+
+.submitButton, .createButton{
+    -fx-pref-width: 130.0;
+    -fx-background-color: lightblue;
+    -fx-text-fill: black;
+}
+.editButton{
+    -fx-pref-width: 75.0;
+    -fx-background-color: lightblue;
+    -fx-text-fill: black;
+}
+
+.deleteButton{
+    -fx-pref-width: 50.0;
+    -fx-text-fill: black;
+    -fx-background-color: red;
+}
+
+.selectedButton{
+    -fx-text-fill: black;
+    -fx-background-color: lightblue;
+}
+
+.settingsLabel{
+    -fx-font-size: 18;
+}
+
+.ArialButton{
+    -fx-background-radius: 0;
+    -fx-pref-width: 165.0;
+    -fx-pref-height: 40.0;
+    -fx-text-fill: black;
+    -fx-alignment: center;
+    -fx-border-color: black;
+    -fx-font-family: "Arial";
+}
+
+.comicSansMSButton{
+    -fx-background-radius: 0;
+    -fx-pref-width: 165.0;
+    -fx-pref-height: 40.0;
+    -fx-text-fill: black;
+    -fx-alignment: center;
+    -fx-border-color: black;
+    -fx-font-family: "Comic Sans MS";
+}
+
+.timesNewRomanButton{
+    -fx-background-radius: 0;
+    -fx-pref-width: 165.0;
+    -fx-pref-height: 40.0;
+    -fx-text-fill: black;
+    -fx-alignment: center;
+    -fx-border-color: black;
+    -fx-font-family: "Times New Roman";
+}
+
+.smallFontSizeButton{
+    -fx-background-radius: 0;
+    -fx-pref-width: 165.0;
+    -fx-pref-height: 40.0;
+    -fx-text-fill: black;
+    -fx-alignment: center;
+    -fx-border-color: black;
+    -fx-font-size: 12;
+}
+
+.mediumFontSizeButton{
+    -fx-background-radius: 0;
+    -fx-pref-width: 165.0;
+    -fx-pref-height: 40.0;
+    -fx-text-fill: black;
+    -fx-alignment: center;
+    -fx-border-color: black;
+    -fx-font-size: 14;
+}
+
+.bigFontSizeButton{
+    -fx-background-radius: 0;
+    -fx-pref-width: 165.0;
+    -fx-pref-height: 40.0;
+    -fx-text-fill: black;
+    -fx-alignment: center;
+    -fx-border-color: black;
+    -fx-font-size: 18;
+}
+
+.saveButton{
+    -fx-pref-width: 75;
+    -fx-background-color: lime;
+}
+
+.welcomeText{
+    -fx-font-size: 24;
+}
+
+
+Tab{
+    -fx-padding: 100;
+}

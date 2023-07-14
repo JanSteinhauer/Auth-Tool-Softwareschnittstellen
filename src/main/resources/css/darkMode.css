@@ -1,0 +1,224 @@
+.root {
+    -fx-accent: #1e74c6;
+    -fx-focus-color: -fx-accent;
+    -fx-base: #373e43;
+    -fx-control-inner-background: derive(-fx-base, 35%);
+    -fx-control-inner-background-alt: -fx-control-inner-background ;
+    -fx-text-fill: white;
+}
+.rootComicSansMS{
+    -fx-font-family: "Comic Sans MS";
+}
+
+.rootArial{
+    -fx-font-family: "Arial";
+}
+
+.rootTimesNewRoman{
+    -fx-font-family: "Times New Roman";
+}
+
+.rootSmallFontSize{
+    -fx-font-size: 10;
+}
+
+rootMediumFontSize{
+    -fx-font-size: 15;
+}
+
+rootBigFontSize{
+    -fx-font-size: 20;
+}
+
+.label{
+    -fx-text-fill: lightgray;
+}
+
+.text-field {
+    -fx-prompt-text-fill: gray;
+}
+
+.titulo{
+    -fx-font-weight: bold;
+    -fx-font-size: 18px;
+}
+
+.button{
+    /*-fx-focus-traversable: false;*/
+    -fx-background-color: #373e43;
+    -fx-background-radius: 0;
+    -fx-pref-width: 165.0;
+    -fx-pref-height: 40.0;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+    -fx-border-color: black;
+}
+
+.menuButton{
+    -fx-background-radius: 0;
+    -fx-background-color: #484848;
+    -fx-border-color: black;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+    -fx-pref-width: 165.0;
+    -fx-pref-height: 40.0;
+}
+
+.saveButton{
+    -fx-pref-width: 75;
+    -fx-text-fill: black;
+    -fx-background-color: lime;
+}
+
+.selectedButton{
+    -fx-background-color: lightblue;
+    -fx-text-fill: black;
+}
+
+.settingsLabel{
+    -fx-font-size: 18;
+}
+
+.ArialButton{
+    -fx-background-radius: 0;
+    -fx-background-color: #373e43;
+    -fx-pref-width: 165.0;
+    -fx-pref-height: 40.0;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+    -fx-border-color: black;
+    -fx-font-family: "Arial";
+}
+
+.comicSansMSButton{
+    -fx-background-radius: 0;
+    -fx-background-color: #373e43;
+    -fx-pref-width: 165.0;
+    -fx-pref-height: 40.0;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+    -fx-border-color: black;
+    -fx-font-family: "Comic Sans MS";
+}
+
+.timesNewRomanButton{
+    -fx-background-radius: 0;
+    -fx-background-color: #373e43;
+    -fx-pref-width: 150.0;
+    -fx-pref-height: 30.0;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+    -fx-border-color: black;
+    -fx-font-family: "Times New Roman";
+}
+
+.smallFontSizeButton{
+    -fx-background-radius: 0;
+    -fx-background-color: #373e43;
+    -fx-pref-width: 165.0;
+    -fx-pref-height: 40.0;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+    -fx-border-color: black;
+    -fx-font-size: 10;
+}
+
+.mediumFontSizeButton{
+    -fx-background-radius: 0;
+    -fx-background-color: #373e43;
+    -fx-pref-width: 165.0;
+    -fx-pref-height: 40.0;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+    -fx-border-color: black;
+    -fx-font-size: 15;
+}
+
+.bigFontSizeButton{
+    -fx-background-radius: 0;
+    -fx-background-color: #373e43;
+    -fx-pref-width: 165.0;
+    -fx-pref-height: 40.0;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+    -fx-border-color: black;
+    -fx-font-size: 20;
+}
+
+.submitButton, .createButton{
+    -fx-pref-width: 130.0;
+    -fx-background-color: lightblue;
+    -fx-text-fill: black;
+}
+.editButton{
+    -fx-pref-width: 75.0;
+    -fx-background-color: lightblue;
+    -fx-text-fill: black;
+}
+
+.deleteButton{
+    -fx-pref-width: 50.0;
+    -fx-text-fill: black;
+    -fx-background-color: red;
+}
+
+.settingsLabel{
+    -fx-font-size: 18;
+}
+
+.welcomeText{
+    -fx-font-size: 24;
+}
+
+
+.navbarVBox{
+    -fx-spacing: 5;
+    -fx-alignment: CENTER;
+}
+
+
+.separator *.line {
+    -fx-background-color: #3C3C3C;
+    -fx-border-style: solid;
+    -fx-border-width: 1px;
+}
+
+.scroll-bar{
+    -fx-background-color: derive(-fx-base,45%)
+}
+
+.button:default {
+    -fx-base: -fx-accent ;
+}
+
+.table-view{
+    /*-fx-background-color: derive(-fx-base, 10%);*/
+    -fx-selection-bar-non-focused: derive(-fx-base, 50%);
+}
+
+.table-view .column-header .label{
+    -fx-alignment: CENTER_LEFT;
+    -fx-font-weight: none;
+}
+
+.list-cell:even,
+.list-cell:odd,
+.table-row-cell:even,
+.table-row-cell:odd{
+    -fx-control-inner-background: derive(-fx-base, 15%);
+}
+
+.list-cell:empty,
+.table-row-cell:empty {
+    -fx-background-color: transparent;
+}
+
+.list-cell,
+.table-row-cell{
+    -fx-border-color: transparent;
+    -fx-table-cell-border-color:transparent;
+}
+
+Tab{
+    -fx-padding: 100;
+}

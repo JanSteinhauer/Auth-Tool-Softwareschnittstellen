@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SettingsController">
+    <children>
+        <TabPane tabClosingPolicy="UNAVAILABLE" tabMinHeight="50.0" tabMinWidth="320.0" translateZ="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <tabs>
+                <Tab fx:id="tabProfile1" onSelectionChanged="#switchToProfile1" text="Profile 1">
+                    <content>
+                        <AnchorPane fx:id="paneProfile1" style="-fx-padding: 100" minHeight="0.0" minWidth="0.0">
+                            <children>
+                                 <fx:include fx:id="profile1" source="/view/profile1View.fxml" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+                <Tab fx:id="tabProfile2" onSelectionChanged="#switchToProfile2" text="Profile 2">
+                    <content>
+                        <AnchorPane fx:id="paneProfile2" style="-fx-padding: 100" minHeight="0.0" minWidth="0.0">
+                            <children>
+                                <fx:include fx:id="profile2" source="/view/profile2View.fxml" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+                <Tab fx:id="tabProfile3" onSelectionChanged="#switchToProfile3" text="Profile 3">
+                    <content>
+                        <AnchorPane fx:id="paneProfile3" style="-fx-padding: 100">
+                            <children>
+                                <fx:include fx:id="profile3" source="/view/profile3View.fxml" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+    </children>
+</AnchorPane>
